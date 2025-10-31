@@ -90,11 +90,11 @@ export const Navbar = () => {
  
 
           {/* Right: Sign In Button */}
-          <div className="login-btn">
+          <Link to="/PaytmLogin" className="login-btn">
             <button>
               <FaUser className="user-icon" /> Sign In
             </button>
-          </div>
+          </Link>
         </nav>
       </div>
     </header>

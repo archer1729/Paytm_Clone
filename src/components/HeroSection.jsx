@@ -81,13 +81,13 @@ export const HeroSection = () => {
 
       {/* Dual Banners */}
       <div className="hero-dual-banners">
-        <div className="banner-item">
+        <Link to="/Recharge" className="banner-item">
           <img src={banner3} alt="Banner 3" />
-        </div>
-        <div className="banner-item">
+        </Link>
+        <Link to="/DTH" className="banner-item">
           <img src={banner4} alt="Banner 4" />
-        </div>
-      </div>
+       </Link>
+     </div> 
 
       {/* Three Banners */}
       <div className="hero-three-banners">
