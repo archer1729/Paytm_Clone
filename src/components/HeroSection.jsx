@@ -110,10 +110,10 @@ export const HeroSection = () => {
     <h3 className="travel-title">Book on Paytm</h3>
 
     <div className="travel-icons-wrapper">
-      <div className="travel-item">
+      <Link to="/FlightBooking" className="travel-item">
         <img src={aeroplane} alt="Flights" />
         <p>Flights</p>
-      </div>
+      </Link>
 
       <div className="travel-item">
         <img src={train} alt="Trains" />
